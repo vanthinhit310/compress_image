@@ -1,0 +1,7 @@
+{
+  "name": "compress_image",
+  "version": "1.0.0",
+  "dependencies": {
+    "compress-images": "^1.9.8"
+  }
+}

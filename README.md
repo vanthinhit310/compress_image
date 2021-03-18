@@ -1,1 +1,1 @@
-# compress_image
+**Compress image**
