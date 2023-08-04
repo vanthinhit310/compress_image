@@ -1,9 +1,9 @@
-const compress_images = require("compress-images");
+import compressImages from "compress-images";
 
 const input_path = "images/*.{jpg,JPG,jpeg,JPEG,png,svg,gif}";
 const output_path = "compressed/";
 
-compress_images(
+compressImages(
   input_path,
   output_path,
   { compress_force: false, statistic: true, autoupdate: true },
